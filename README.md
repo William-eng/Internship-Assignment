@@ -19,12 +19,12 @@ Whenever there is a push to the `main` branch, the workflow triggers a build job
 - Node.js and npm should be installed.
 
 ### Live
-Access the live ToDo app [here](https://gayan-98.github.io/To-Do/).
+Access the live ToDo app [here](https://william-eng.github.io/Internship-Assignment/).
 
 ### Installation
 
    ```bash
-   git clone https://github.com/Gayan-98/To-Do.git
+   git clone https://github.com/william-eng/Internship-Assignment.git
    cd todo
    npm install
    npm start
