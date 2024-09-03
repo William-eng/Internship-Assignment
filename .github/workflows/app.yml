@@ -32,7 +32,6 @@ jobs:
   
   # Build Job
   build:
-    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
