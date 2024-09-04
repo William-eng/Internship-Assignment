@@ -22,6 +22,7 @@ jobs:
         run: | 
           cd todo
           npm install react-scripts --save
+          npm audit fix --force
           npm run test
           echo "npm test -- --watchAll=false   Pass test"   # Run
 
