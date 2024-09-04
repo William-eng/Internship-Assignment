@@ -54,8 +54,8 @@ Access the live ToDo app [here](https://william-eng.github.io/Internship-Assignm
    npm start
 
 
-Committing and Pushing Changes
-Commit Changes:
+#Committing and Pushing Changes
+#Commit Changes:
 
 
 
@@ -63,8 +63,7 @@ git add .
 git commit -m "message"
 Push to GitHub:
 
-bash
-Copy code
+
 git push origin main
 
 
