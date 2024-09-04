@@ -19,9 +19,9 @@ jobs:
         with:
           node-version: 18.x
       - name: Run Unit Tests
-        run: |
-          npm test 
+        run: | 
           cd todo
+          npm test
           echo "npm test -- --watchAll=false   Pass test"   # Run
 
   
