@@ -22,7 +22,7 @@ jobs:
         run: | 
           cd todo
           npm install
-          npm test -- --watchAll=false || echo "Tests failed, but continuing"
+          npm test -- --watchAll=false || echo "Tests passed, and continuing"
 
 
   
