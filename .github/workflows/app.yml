@@ -21,10 +21,9 @@ jobs:
       - name: Run Unit Tests
         run: | 
           cd todo
-          npm install react-scripts --save
-          npm audit fix --force
+          npm install
           npm test -- --watchAll=false
-          echo "npm test -- --watchAll=false   Pass test"   # Run
+
 
   
   # Build Job
